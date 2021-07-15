@@ -45,6 +45,7 @@ html {
   align-items: center; }
 
 .step {
+  user-select: none;
   font-size: 2rem;
   height: 4rem;
   width: 4rem;
@@ -52,19 +53,30 @@ html {
   align-items: center;
   justify-content: center;
   border: 0.3rem solid #60cc2e;
-  border-radius: 100%; }
+  border-radius: 100%;
+  transition: all 0.3s 0.3s; }
+  .step--active {
+    border-color: #e77e90; }
 
 .bridge {
   width: 5rem;
   height: 0.3rem;
   background-color: #60cc2e;
-  transition: all 0.3s; }
+  position: relative; }
+  .bridge--active::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #e77e90;
+    position: absolute;
+    transition: all 0.3s; }
 
 .buttons {
   display: flex;
   gap: 2rem; }
 
 .btn {
+  user-select: none;
   background-color: #e77e90;
   color: white;
   padding: 1rem 0;
@@ -79,3 +91,8 @@ html {
     background-color: #df536b; }
   .btn:active {
     background-color: #d72846; }
+  .btn--disabled {
+    cursor: not-allowed;
+    background-color: #f7d4da; }
+    .btn--disabled:hover {
+      background-color: #f7d4da; }
