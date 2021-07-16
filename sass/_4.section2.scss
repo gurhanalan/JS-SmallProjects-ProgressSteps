@@ -8,3 +8,45 @@
     overflow: hidden;
     background-color: lightblue;
 }
+
+.search-container {
+    display: flex;
+    transition: transform 0.7s ease;
+    // background-color: honeydew;
+}
+
+#search-input,
+#search-btn {
+    border: none;
+    outline: none;
+    background-color: honeydew;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.search-input {
+    width: 20rem;
+
+    transform: scaleX(0);
+    transition: all 0.7s ease;
+
+    &--active {
+        width: 20rem;
+        transform: scaleX(1);
+        transition: all 0.7s ease;
+    }
+}
+
+#search-btn {
+    cursor: pointer;
+}
+
+.search-btn {
+    transform: translateX(-10rem);
+    transition: all 0.7s ease;
+
+    &--active {
+        transform: translateX(0rem);
+        transition: all 0.7s ease;
+    }
+}
