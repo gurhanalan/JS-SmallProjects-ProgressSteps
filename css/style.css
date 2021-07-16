@@ -52,7 +52,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0.3rem solid #60cc2e;
+  border: 0.3rem solid #c5c5c5;
   border-radius: 100%;
   transition: all 1s; }
   .step--active {
@@ -62,7 +62,7 @@ html {
 .bridge {
   width: 5rem;
   height: 0.3rem;
-  background-color: #60cc2e;
+  background-color: #c5c5c5;
   position: relative; }
   .bridge--active {
     transition: all 1s; }
@@ -108,7 +108,10 @@ html {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background-color: lightblue; }
+  background-color: lightblue;
+  gap: 2rem; }
+  .section--2 h1 {
+    font-size: 3rem; }
 
 .search-container {
   display: flex;
@@ -135,8 +138,8 @@ html {
   cursor: pointer; }
 
 .search-btn {
-  transform: translateX(-10rem);
+  transform: translateX(-11rem);
   transition: all 0.7s ease; }
   .search-btn--active {
-    transform: translateX(0rem);
+    transform: translateX(-1rem);
     transition: all 0.7s ease; }
