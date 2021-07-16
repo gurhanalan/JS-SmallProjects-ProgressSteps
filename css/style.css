@@ -54,8 +54,9 @@ html {
   justify-content: center;
   border: 0.3rem solid #60cc2e;
   border-radius: 100%;
-  transition: all 0.3s 0.3s; }
+  transition: all 1s; }
   .step--active {
+    transition: all 1s;
     border-color: #e77e90; }
 
 .bridge {
@@ -63,13 +64,15 @@ html {
   height: 0.3rem;
   background-color: #60cc2e;
   position: relative; }
-  .bridge--active::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background-color: #e77e90;
-    position: absolute;
-    transition: all 0.3s; }
+  .bridge--active {
+    transition: all 1s; }
+    .bridge--active::after {
+      content: "";
+      height: 100%;
+      width: 100%;
+      background-color: #e77e90;
+      position: absolute;
+      transition: all 1s; }
 
 .buttons {
   display: flex;
@@ -96,3 +99,13 @@ html {
     background-color: #f7d4da; }
     .btn--disabled:hover {
       background-color: #f7d4da; }
+
+.section--2 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: lightblue; }
