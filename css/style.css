@@ -143,3 +143,46 @@ html {
   .search-btn--active {
     transform: translateX(-1rem);
     transition: all 0.7s ease; }
+
+.section--3 {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  overflow: hidden; }
+
+.pages {
+  width: 100vw;
+  display: flex;
+  height: 100%; }
+  .pages .page--1 {
+    width: 50%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.205)), url(../img/ps.jpg); }
+  .pages .page--2 {
+    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url(../img/xbox.jpg); }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: width 0.4s ease; }
+  .page h1 {
+    font-size: 4rem;
+    color: white; }
+  .page button {
+    font-size: 2rem;
+    color: white;
+    border: 0.3rem solid white;
+    background-color: transparent;
+    padding: 1rem 2rem; }
+
+.pages--left .page--1 {
+  width: 70%; }
+
+.pages--left .page--2 {
+  width: 30%; }
