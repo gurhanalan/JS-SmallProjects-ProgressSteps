@@ -37,18 +37,27 @@
         <!-- +++++++++++++++SECTION 2 -->
         <section class="section--2">
             <h1>Hidden Search Widget</h1>
-            <div class="search-container">
+            <form
+                class="search-container"
+                method="get"
+                action="http://www.google.com/search"
+            >
                 <input
                     type="text"
-                    name=""
+                    name="search"
                     id="search-input"
                     placeholder="Search..."
                     class="search-input"
                 />
-                <button id="search-btn" class="search-btn">
+                <button
+                    id="search-btn"
+                    class="search-btn"
+                    type="submit"
+                    value="Google Search"
+                >
                     <i class="fas fa-search"></i>
                 </button>
-            </div>
+            </form>
         </section>
         <!-- +++++++++++++++SECTION 3 -->
         <section class="section--3">
