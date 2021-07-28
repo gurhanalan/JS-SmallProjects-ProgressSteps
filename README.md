@@ -1,17 +1,17 @@
 # 50 Projects In 50 Days - Progress Steps | Hidden Search Widget | Split Landing Page
 
-This is a solution to the 3 projects of [50 Projects In 50 Days - HTML, CSS & JavaScript Course](https://www.udemy.com/course/50-projects-50-days/). These projects are done via looking at project intro videos of the example projects before the introduction of the instructor's solution.
+This is a solution to the 3 projects of [50 Projects In 50 Days - HTML, CSS & JavaScript Course](https://www.udemy.com/course/50-projects-50-days/). [These projects](https://gurhanalan.github.io/JS-SmallProjects-ProgressSteps/) are done via looking at project intro videos of the example projects before the introduction of the instructor's solution.
 
 ## Table of contents
 
-- [50 Projects In 50 Days - Progress Steps | Hidden Search Widget | Split Landing Page](#50-projects-in-50-days---progress-steps--hidden-search-widget--split-landing-page)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
+-   [50 Projects In 50 Days - Progress Steps | Hidden Search Widget | Split Landing Page](#50-projects-in-50-days---progress-steps--hidden-search-widget--split-landing-page)
+    -   [Table of contents](#table-of-contents)
+    -   [Overview](#overview)
+        -   [The challenge](#the-challenge)
+        -   [Screenshot](#screenshot)
+        -   [Links](#links)
+    -   [My process](#my-process)
+        -   [Built with](#built-with)
 
 ## Overview
 
