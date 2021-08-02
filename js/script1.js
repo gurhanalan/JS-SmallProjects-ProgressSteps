@@ -36,3 +36,5 @@ btnPrev.addEventListener("click", () => {
     step--;
     btnDisable();
 });
+
+btnDisable();
